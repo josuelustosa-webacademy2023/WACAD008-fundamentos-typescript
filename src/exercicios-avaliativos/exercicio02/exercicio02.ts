@@ -1,14 +1,9 @@
-import { CATEGORIA } from "./categoria.enum";
+import { CATEGORIA } from "./../utils/enums";
+import { LIVRO } from "./../utils/types";
 
 console.table(CATEGORIA);
 
-type livro = {
-  nome: string;
-  valor: number;
-  categoria?: CATEGORIA;
-};
-
-let livrosExercicioII: livro[];
+let livrosExercicioII: LIVRO[];
 
 livrosExercicioII = [
   {
