@@ -1,29 +1,83 @@
-let livros: any[][];
-livros = [
-  ["Resiliência – A trajetória de Dong Yu Lan", 107.9, "Liderança"],
-  ["Fundamentos da fé cristã – volume 1", 44.0, "Vida Cristã"],
-  ["Fundamentos da fé cristã – volume 2", 44.0, "Vida Cristã"],
-  ["Fundamentos da fé cristã – volume 3", 44.0, "Vida Cristã"],
-  ["Fundamentos da fé cristã – volume 4", 44.0, "Vida Cristã"],
-  ["Filhos… Como conduzi-los a Deus", 20.3, "Família"],
-  ["Casamento: Um jardim de sonhos? ou um lugar sem cor?", 48.2, "Família"],
-  [
-    "Mulheres da Bíblia: suas histórias e legados (Antigo Testamento)",
-    30.0,
-    "Mulher",
-  ],
-  [
-    "Mulheres da Bíblia: suas histórias e legados (Novo Testamento)",
-    39.9,
-    "Mulher",
-  ],
-  ["Uma mulher virtuosa em construção", 29.9, "Mulher"],
-  ["Uma mulher corajosa em construção", 29.9, "Mulher"],
-  ["A nossa esperança não se limita a esta vida", 31.1, "Jovens"],
-  ["Atitude: Um jovem vencedor!", 20.3, "Jovens"],
-  ["O nome acima de todo nome", 19.6, "Jovens"],
-  ["#partiu", 13.6, "Jovens"],
-  ["Amar a vinda do Senhor", 25.0, "Escatalogia"],
+let livrosExercicioI: any[];
+
+livrosExercicioI = [
+  {
+    nome: "Resiliência – A trajetória de Dong Yu Lan",
+    valor: 107.9,
+    categoria: "Liderança",
+  },
+  {
+    nome: "Fundamentos da fé cristã – volume 1",
+    valor: 44.0,
+    categoria: "Vida Cristã",
+  },
+  {
+    nome: "Fundamentos da fé cristã – volume 2",
+    valor: 44.0,
+    categoria: "Vida Cristã",
+  },
+  {
+    nome: "Fundamentos da fé cristã – volume 3",
+    valor: 44.0,
+    categoria: "Vida Cristã",
+  },
+  {
+    nome: "Fundamentos da fé cristã – volume 4",
+    valor: 44.0,
+    categoria: "Vida Cristã",
+  },
+  {
+    nome: "Filhos… Como conduzi-los a Deus",
+    valor: 20.3,
+    categoria: "Família",
+  },
+  {
+    nome: "Casamento: Um jardim de sonhos? ou um lugar sem cor?",
+    valor: 48.2,
+    categoria: "Família",
+  },
+
+  {
+    nome: "Mulheres da Bíblia: suas histórias e legados (Antigo Testamento)",
+    valor: 30.0,
+    categoria: "Mulher",
+  },
+  {
+    nome: "Mulheres da Bíblia: suas histórias e legados (Novo Testamento)",
+    valor: 39.9,
+    categoria: "Mulher",
+  },
+  {
+    nome: "Uma mulher virtuosa em construção",
+    valor: 29.9,
+    categoria: "Mulher",
+  },
+  {
+    nome: "Uma mulher corajosa em construção",
+    valor: 29.9,
+    categoria: "Mulher",
+  },
+  {
+    nome: "A nossa esperança não se limita a esta vida",
+    valor: 31.1,
+    categoria: "Jovens",
+  },
+  {
+    nome: "Atitude: Um jovem vencedor!",
+    valor: 20.3,
+    categoria: "Jovens",
+  },
+  {
+    nome: "O nome acima de todo nome",
+    valor: 19.6,
+    categoria: "Jovens",
+  },
+  { nome: "#partiu", valor: 13.6, categoria: "Jovens" },
+  {
+    nome: "Amar a vinda do Senhor",
+    valor: 25.0,
+    categoria: "Escatalogia",
+  },
 ];
 
-console.table(livros);
+console.table(livrosExercicioI);
