@@ -1,4 +1,4 @@
-export enum CATEGORIA {
+enum CATEGORIA {
   lideranca = "Liderança",
   vida_crista = "Vida Cristã",
   familia = "Família",
@@ -6,3 +6,5 @@ export enum CATEGORIA {
   jovens = "Jovens",
   escatalogia = "Escatalogia",
 }
+
+export default CATEGORIA;

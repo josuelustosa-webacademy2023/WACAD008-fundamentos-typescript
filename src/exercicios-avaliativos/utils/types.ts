@@ -1,7 +1,9 @@
-import { CATEGORIA } from "./enums";
+import CATEGORIA from "./enums";
 
-export type LIVRO = {
+type LIVRO = {
   nome: string;
   valor: number;
   categoria?: CATEGORIA;
 };
+
+export default LIVRO;

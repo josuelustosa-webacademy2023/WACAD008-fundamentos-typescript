@@ -1,11 +1,6 @@
 import CATEGORIA from "../utils/enums";
-import LIVRO from "../utils/types";
 
-console.table(CATEGORIA);
-
-let livrosExercicioII: LIVRO[];
-
-livrosExercicioII = [
+const LIVROS = [
   {
     nome: "Resiliência – A trajetória de Dong Yu Lan",
     valor: 107.9,
@@ -49,7 +44,7 @@ livrosExercicioII = [
   {
     nome: "Mulheres da Bíblia: suas histórias e legados (Novo Testamento)",
     valor: 39.9,
-    //categoria: CATEGORIA.mulher,
+    categoria: CATEGORIA.mulher,
   },
   {
     nome: "Uma mulher virtuosa em construção",
@@ -59,12 +54,12 @@ livrosExercicioII = [
   {
     nome: "Uma mulher corajosa em construção",
     valor: 29.9,
-    //categoria: CATEGORIA.mulher,
+    categoria: CATEGORIA.mulher,
   },
   {
     nome: "A nossa esperança não se limita a esta vida",
     valor: 31.1,
-    // categoria: CATEGORIA.jovens,
+    categoria: CATEGORIA.jovens,
   },
   {
     nome: "Atitude: Um jovem vencedor!",
@@ -84,4 +79,4 @@ livrosExercicioII = [
   },
 ];
 
-console.table(livrosExercicioII);
+export default LIVROS;
