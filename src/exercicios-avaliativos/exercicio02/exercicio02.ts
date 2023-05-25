@@ -1,5 +1,5 @@
+import { LIVRO } from "../utils/types";
 import LIVROS from "../utils/variables";
-import LIVRO from "../utils/types";
 
 const livrosExercicioII: LIVRO[] = LIVROS.map((item, index) => {
   const indicesComCategoriaVazia = [2, 3, 9, 14];

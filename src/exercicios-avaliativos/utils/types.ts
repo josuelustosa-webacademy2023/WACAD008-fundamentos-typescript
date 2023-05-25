@@ -6,4 +6,10 @@ type LIVRO = {
   categoria?: CATEGORIA;
 };
 
-export default LIVRO;
+type AUTOR = {
+  nome: string;
+  idade: number;
+  livro_escrito: LIVRO;
+};
+
+export type { LIVRO, AUTOR };

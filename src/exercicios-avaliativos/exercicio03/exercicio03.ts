@@ -1,4 +1,4 @@
-import LIVRO from "../utils/types";
+import { LIVRO } from "../utils/types";
 import LIVROS from "../utils/variables";
 
 const livrosExercicioIII: LIVRO[] = LIVROS;
