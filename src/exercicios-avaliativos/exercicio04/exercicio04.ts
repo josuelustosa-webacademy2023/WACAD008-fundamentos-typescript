@@ -1,4 +1,4 @@
-import CATEGORIA from "../utils/enums";
+import { CATEGORIA } from "../utils/enums";
 import { LIVRO, AUTOR } from "../utils/types";
 
 const autor1: AUTOR = {

@@ -1,4 +1,4 @@
-enum CATEGORIA {
+export enum CATEGORIA {
   lideranca = "Liderança",
   vida_crista = "Vida Cristã",
   familia = "Família",
@@ -7,4 +7,14 @@ enum CATEGORIA {
   escatalogia = "Escatalogia",
 }
 
-export default CATEGORIA;
+export enum TURNO {
+  manha = "Manha",
+  tarde = "Tarde",
+  noite = "Noite",
+}
+
+export enum AREA {
+  humanas = "Humanas",
+  biologicas = "Biologicas",
+  exatas = "Exatas",
+}

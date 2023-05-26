@@ -1,4 +1,4 @@
-import CATEGORIA from "./enums";
+import { CATEGORIA } from "./enums";
 
 type LIVRO = {
   nome: string;
