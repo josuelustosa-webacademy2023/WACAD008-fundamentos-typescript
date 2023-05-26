@@ -79,4 +79,59 @@ const LIVROS = [
   },
 ];
 
-export default LIVROS;
+const BIBLIOTECAS = [
+  {
+    nome_biblioteca: "Igreja em Manaus - Matriz",
+    livros: [
+      {
+        nome: LIVROS[0].nome,
+        valor: LIVROS[0].valor,
+        categoria: CATEGORIA.vida_crista,
+        nome_autor: "Dong Yu Lan",
+        idade: null,
+      },
+      {
+        nome: LIVROS[15].nome,
+        valor: LIVROS[15].valor,
+        categoria: CATEGORIA.escatalogia,
+        nome_autor: "Miguel Ma",
+        idade: 78,
+      },
+    ],
+  },
+  {
+    nome_biblioteca: "Shopping Manauara",
+    livros: [
+      {
+        nome: LIVROS[1].nome,
+        valor: LIVROS[1].valor,
+        categoria: CATEGORIA.familia,
+        nome_autor: "Corpo redatorial (Editora Árvore da Vida)",
+        idade: null,
+      },
+      {
+        nome: LIVROS[2].nome,
+        valor: LIVROS[2].valor,
+        categoria: CATEGORIA.familia,
+        nome_autor: "Corpo redatorial (Editora Árvore da Vida)",
+        idade: null,
+      },
+      {
+        nome: LIVROS[3].nome,
+        valor: LIVROS[3].valor,
+        categoria: CATEGORIA.familia,
+        nome_autor: "Corpo redatorial (Editora Árvore da Vida)",
+        idade: null,
+      },
+      {
+        nome: LIVROS[4].nome,
+        valor: LIVROS[4].valor,
+        categoria: CATEGORIA.familia,
+        nome_autor: "Corpo redatorial (Editora Árvore da Vida)",
+        idade: null,
+      },
+    ],
+  },
+];
+
+export default { LIVROS, BIBLIOTECAS };

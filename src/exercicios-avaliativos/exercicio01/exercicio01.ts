@@ -1,6 +1,6 @@
 import { LIVRO } from "../utils/types";
-import LIVROS from "../utils/variables";
+import constantes from "../utils/variables";
 
-const livrosExercicioI: LIVRO[] = LIVROS;
+const livrosExercicioI: LIVRO[] = constantes.LIVROS;
 
 console.table(livrosExercicioI);

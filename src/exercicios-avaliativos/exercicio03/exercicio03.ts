@@ -1,7 +1,7 @@
 import { LIVRO } from "../utils/types";
-import LIVROS from "../utils/variables";
+import constantes from "../utils/variables";
 
-const livrosExercicioIII: LIVRO[] = LIVROS;
+const livrosExercicioIII: LIVRO[] = constantes.LIVROS;
 
 function verificarPropriedades(arr: LIVRO[], propriedade: string): string[] {
   const propriedadeSemEspaco: string[] = arr.map((item) => {

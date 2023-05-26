@@ -7,9 +7,9 @@ type LIVRO = {
 };
 
 type AUTOR = {
-  nome: string;
-  idade: number;
-  livro_escrito: LIVRO;
+  nome_autor: string;
+  idade?: number;
+  // livro_escrito: LIVRO;
 };
 
 export type { LIVRO, AUTOR };

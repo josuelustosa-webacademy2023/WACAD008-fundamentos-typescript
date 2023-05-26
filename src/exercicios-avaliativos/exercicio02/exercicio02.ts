@@ -1,7 +1,7 @@
 import { LIVRO } from "../utils/types";
-import LIVROS from "../utils/variables";
+import constantes from "../utils/variables";
 
-const livrosExercicioII: LIVRO[] = LIVROS.map((item, index) => {
+const livrosExercicioII: LIVRO[] = constantes.LIVROS.map((item, index) => {
   const indicesComCategoriaVazia = [2, 3, 9, 14];
 
   if (indicesComCategoriaVazia.includes(index))

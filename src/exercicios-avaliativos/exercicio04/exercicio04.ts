@@ -1,36 +1,11 @@
-import { CATEGORIA } from "../utils/enums";
+/*
+Crie um map de um tipo união entre os tipos autor e livro.
+Acesse cada biblioteca e imprima os livros de cada uma
+*/
+
 import { LIVRO, AUTOR } from "../utils/types";
+import constantes from "../utils/variables";
 
-const autor1: AUTOR = {
-  nome: "Autor 1",
-  idade: 56,
-  livro_escrito: {
-    nome: "Livro 1",
-    valor: 10,
-    categoria: CATEGORIA.familia,
-  },
-};
+type AutorLivro = LIVRO | AUTOR;
 
-const autor2: AUTOR = {
-  nome: "Autor 2",
-  idade: 48,
-  livro_escrito: {
-    nome: "Livro 2",
-    valor: 15,
-    categoria: CATEGORIA.familia,
-  },
-};
-
-const autor3: AUTOR = {
-  nome: "Autor 3",
-  idade: 29,
-  livro_escrito: {
-    nome: "Livro 3",
-    valor: 20,
-    categoria: CATEGORIA.escatalogia,
-  },
-};
-
-console.log("Autor 1", autor1);
-console.log("Autor 2", autor2);
-console.log("Autor 3", autor3);
+console.table(constantes.BIBLIOTECAS[0].livros);
